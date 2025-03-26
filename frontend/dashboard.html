@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Admin - SanarPlus</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Panel de Administración</h1>
+    </header>
+
+    <main>
+        <h2>Pacientes registrados</h2>
+        <form id="buscar-form">
+            <input type="text" id="search" placeholder="Buscar por nombre">
+            <button type="submit">Buscar</button>
+        </form>
+
+        <div id="resultados">
+            <!-- Aquí pondremos resultados sin sanitizar 😈 -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Hospital SanarPlus - Admin Panel</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
